@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    h1{
+        a{
+
+            color: #007bff;
+
+        }
+
+    }
+    ul{
+        display: flex;
+        gap: 20px;
+        li{
+
+            a{
+
+                font-size: 18px;
+                color: black;
+            }
+        }
+    }
+
+    .icons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        .bsk{
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .user{
+            cursor: pointer;
+            font-size: 20px;
+
+
+        }
+    }
+}
